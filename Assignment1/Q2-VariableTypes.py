@@ -1,0 +1,22 @@
+let UserName = "Hello";
+let LoginPin = 1234;
+let BigUserId = 12345678901234567890n;
+let premiumMembership = true;
+let uniqueSymbol = Symbol("id");
+let profilePicture = undefined;
+let status = null;
+
+console.log("Username is :" , UserName);
+console.log("Login Pin is :" , LoginPin);
+console.log("Big User Id is :" , BigUserId);
+console.log("Premium Membership is :" , premiumMembership); 
+console.log("Unique Symbol is :" , uniqueSymbol);
+console.log("Profile Picture is :" , profilePicture);
+console.log("Status is :" , status);
+console.log("The type of UserName is :" , typeof UserName);
+console.log("The type of LoginPin is :" , typeof LoginPin);
+console.log("The type of BigUserId is :" , typeof BigUserId);
+console.log("The type of premiumMembership is :" , typeof premiumMembership);
+console.log("The type of uniqueSymbol is :" , typeof uniqueSymbol);
+console.log("The type of profilePicture is :" , typeof profilePicture);
+console.log("The type of status is :" , typeof status);
