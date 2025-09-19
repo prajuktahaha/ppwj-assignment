@@ -1,0 +1,12 @@
+let a = prompt("Enter 1st value");
+let b = prompt("Enter 2nd value");
+a = Number(a);
+b = Number(b);
+let add = a+b;
+let sub = a -b;
+let mul = a * b;
+let div = a / b;
+console.log("Addition: " + add);
+console.log("Subtraction: " + sub);
+console.log("Multiplication: " + mul);
+console.log("Division: " + div);
