@@ -1,0 +1,10 @@
+let EmployeeID = ["P1" , "P2" , "P3" , "P4" , "P5" , "P6" , "P7"];
+console.log(EmployeeID);
+console.log(EmployeeID.length);
+delete EmployeeID[4];
+console.log(EmployeeID);
+console.log(EmployeeID.length);
+let EmployeeID1 = ["P1" , "P2" , "P3" , "P4" , "P5" , "P6" , "P7"];
+EmployeeID1.splice(3,6);
+console.log(EmployeeID1);
+console.log(EmployeeID1.length);
